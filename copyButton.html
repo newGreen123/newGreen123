@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Button Example</title>
+    <style>
+p {
+   margin: 0px 0;
+line-height: -10px;
+}
+        .copy-button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .copy-button img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .sentence {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .sentence p {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sentence">
+        <button class="copy-button" onclick="copyText('sentence2')">
+            <svg width="20px" height="20px" viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)">
+    <g id="SVGRepo_bgCarrier" stroke-width="0">
+        <rect x="-1.44" y="-1.44" width="26.88" height="26.88" rx="5.376" fill="#e0e4e6" stroke-width="0"></rect>
+    </g>
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_iconCarrier">
+        <path d="M10 8V7C10 6.05719 10 5.58579 10.2929 5.29289C10.5858 5 11.0572 5 12 5H17C17.9428 5 18.4142 5 18.7071 5.29289C19 5.58579 19 6.05719 19 7V12C19 12.9428 19 13.4142 18.7071 13.7071C18.4142 14 17.9428 14 17 14H16M7 19H12C12.9428 19 13.4142 19 13.7071 18.7071C14 18.4142 14 17.9428 14 17V12C14 11.0572 14 10.5858 13.7071 10.2929C13.4142 10 12.9428 10 12 10H7C6.05719 10 5.58579 10 5.29289 10.2929C5 10.5858 5 11.0572 5 12V17C5 17.9428 5 18.4142 5.29289 18.7071C5.58579 19 6.05719 19 7 19Z" stroke="#2c2c30" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>
+
+</button>
+        <p id="sentence2">Additionally, they would like to be notified promptly about the delivery.</p>
+    </div>
+    <div class="sentence">
+        <button class="copy-button" onclick="copyText('sentence3')">
+            <svg width="20px" height="20px" viewBox="-1.44 -1.44 26.88 26.88" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)">
+    <g id="SVGRepo_bgCarrier" stroke-width="0">
+        <rect x="-1.44" y="-1.44" width="26.88" height="26.88" rx="5.376" fill="#e0e4e6" stroke-width="0"></rect>
+    </g>
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_iconCarrier">
+        <path d="M10 8V7C10 6.05719 10 5.58579 10.2929 5.29289C10.5858 5 11.0572 5 12 5H17C17.9428 5 18.4142 5 18.7071 5.29289C19 5.58579 19 6.05719 19 7V12C19 12.9428 19 13.4142 18.7071 13.7071C18.4142 14 17.9428 14 17 14H16M7 19H12C12.9428 19 13.4142 19 13.7071 18.7071C14 18.4142 14 17.9428 14 17V12C14 11.0572 14 10.5858 13.7071 10.2929C13.4142 10 12.9428 10 12 10H7C6.05719 10 5.58579 10 5.29289 10.2929C5 10.5858 5 11.0572 5 12V17C5 17.9428 5 18.4142 5.29289 18.7071C5.58579 19 6.05719 19 7 19Z" stroke="#2c2c30" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>
+
+
+        </button>
+        <p id="sentence3">Furthermore, they have not received any Proof of Delivery and there are no geo-codes available.</p>
+    </div>
+
+    <script>
+        function copyText(sentenceId) {
+            var text = document.getElementById(sentenceId).innerText;
+            var textArea = document.createElement("textarea");
+            textArea.value = text;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textArea);
+            alert("Text copied to clipboard");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+GREET :
+Hello, ~! Thank you for contacting Yodel Live Chat Support. My name is Vicky. How can I assist you today?
+
+Hello, ~! Thank you for contacting Yodel Live Chat Support. My name is Vicky. I will be assisting you today.
+
+HOLD STATEMENTS :
+Let me quickly check this for you. Please bear with me for a moment.
+
+Thank you for explaining your issue. Please allow me a moment so that I can assist you.
+
+Please bear with me for a moment while I check this for you.
+
+Please bear with me for a moment while I check this for you. Thank you for your patience.
+
+Thank you for providing that information. It may take a few minutes for me to research it. Please allow me a moment so that I can assist you.
+
+Thank you for explaining your issue. Please hold on while I check my resources and find the best solution for you. I'll be back with an update shortly.
+
+I appreciate your understanding. I’ll be back shortly with an update.
+
+I sincerely apologize for the inconvenience you've experienced. Please allow me a moment so that I can assist you.
+
+
+UN-HOLD STATEMENTS :
+Thank you for being connected with us.
+
+Thank you for your patience.
+
+I understand your concern and I'm here to help.
+
+ASSURANCE :
+Please rest assured, we are doing our utmost to ensure your parcel is delivered.
+
+```````
+I'm providing you with the Proof of Delivery. Kindly review it.
+
+Could you please check with your family members and neighbours to see if they might have received it on your behalf, and confirm back with us?
+
+```````
+DPA :
+Thank you for your patience. To assist you further, I would need you to confirm your correct name and registered email ID. This information will help us verify your account and provide you with the best possible support.
+
+Thank you for your patience. To assist you further, I would need you to confirm the recipient's correct name, first line of address, postcode, and registered email ID. This information will help us verify your details and provide you with the best possible support.
+
+STILL CONNECTED :
+Are we still connected?
+
+Since you are not responding, I will have to close the chat. Thank you for reaching out to Yodel Live Chat Support. Have a great day.
+
+OFFERING ADDITIONAL HELP :
+Thank you for giving us the opportunity to help you today. Please let me know if there is anything else I can assist you with.
+
+It was great chatting with you today. I appreciate your patience. Is there anything else I can assist you with?
+
+CLOSURE :
+Thank you for reaching out to us. Here is your Tracking Link: ~. To access more features like Proof of Delivery Images, Push notifications etc, download the Yodel App. Have a great day ahead.
+
+Thank you for contacting Yodel Live Chat Support! Have a great day!
+
+Thank you for reaching out to Yodel Customer Services. It was a pleasure assisting you today. Have a great day!
+
+What3Words: 
+Firstly, you’ll need to download the Yodel Parcel Tracker app to use what3words. From there, head to ‘Account’ and select ‘Delivery Addresses’. Enter your delivery address if you haven’t already, or select your existing address. Once you’ve done this, select ‘Find my what3words’ in the app.
+
+TICKET RAISE ASSURANCE :
+I apologise for the inconvenience. I am raising your concern to the relevant team. They will investigate this issue and get back to you on your registered email within 24 hours.
+
+I have escalated your issue to the relevant team. They will reach out to you via your registered email within 24 hours.
+
+I apologise for the inconvenience. Rest assured that our dedicated team is prioritising your issue and will be reaching out to you shortly.
+
+I sincerely apologise for the inconvenience you have faced. Rest assured, the relevant team will investigate this issue as a priority and will update you accordingly. Please do not worry, as we are committed to resolving this matter promptly.
+
+EDD END OF DAY :
+Your parcel is expected to be delivered today. Please wait until the end of the day for it to arrive.
+
+Thank you for your patience. Your parcel is expected to be delivered today. Please wait until the end of the day for it to arrive. If you have any further questions or concerns, feel free to let me know.
+
+Disposition : 
+The customer inquired about the current status of their parcel. Since their EDD had not yet elapsed, I advised them to wait until the EDD.
+
+The customer inquired about the current status of their parcel. Since their parcel was an international one, I informed them that for international parcels, there are additional procedures we have to follow, which sometimes results in extra time being needed. The customer was satisfied with this explanation.
+
+Regards,
+Vicky
+
+COMPLAIN :
+executivecomplaints@yodel.co.uk
+
+
+<!```````
+We must promote the Yodel App in the closing responses highlighting it's features. For ex: POD Image access, 2 hour delivery window, What3Words location, Updating Inflight Options, Push notifications etc.
+
+```````
