@@ -77,6 +77,13 @@ Your parcel is expected to be delivered today. Please wait until the end of the 
 Thank you for your patience. Your parcel is expected to be delivered today. Please wait until the end of the day for it to arrive. If you have any further questions or concerns, feel free to let me know.
 
 Disposition : 
+The customer inquired about the current status of their parcel. I updated them that their parcel is expected to be delivered by the end of the day.
+
+Regards,
+Vicky
+
+The customer needed to update their address since their parcel was on hold due to bad address. I informed them to update their address using the Yodel mobile application also suggested them to add what3words to their address using the app.
+
 The customer inquired about the current status of their parcel. Since their EDD had not yet elapsed, I advised them to wait until the EDD.
 
 The customer inquired about the current status of their parcel. Since their parcel was an international one, I informed them that for international parcels, there are additional procedures we have to follow, which sometimes results in extra time being needed. The customer was satisfied with this explanation.
