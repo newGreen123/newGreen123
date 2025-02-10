@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yodel Support Snippets</title>
+    <style>
+        :root {
+            --primary-color: #ffffff;
+            --secondary-color: #e0e4e6;
+            --background-color: #000000;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--primary-color);
+            font-family: 'FreeMono', monospace;
+            margin: 2px;
+            line-height: 0.9;
+            font-size: 0.8rem;
+        }
+
+        h1 {
+            font-size: 1rem;
+            margin: 0.5rem 0 0.2rem; /* Reduced margin before h1 */
+            color: var(--secondary-color);
+            padding-bottom: 0.1rem;
+        }
+
+        .snippet-group {
+            margin-bottom: 0.2rem; /* Reduced margin */
+        }
+
+        .copy-container {
+            display: flex;
+            align-items: flex-start;
+            margin: 0.1rem 0;
+            padding: 0.1rem 0.2rem;
+            border-radius: 4px;
+            transition: background-color 0.1s;
+        }
+
+        .copy-container:hover {
+            background-color: #1a1a1a;
+        }
+
+        .copy-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 2px;
+            margin-right: 4px;
+            flex-shrink: 0;
+            align-self: center;
+        }
+
+        .copy-icon {
+            width: 16px;
+            height: 16px;
+            transition: opacity 0.1s;
+        }
+
+        .copy-icon use {
+            color: var(--secondary-color);
+        }
+
+        .copy-btn:hover .copy-icon {
+            opacity: 0.8;
+        }
+
+        .copy-btn:active .copy-icon {
+            opacity: 0.6;
+        }
+
+        .snippet-text {
+            margin: 0;
+            flex-grow: 1;
+            user-select: text;
+            font-size: 0.85rem;
+        }
+
+        .feedback {
+            display: none; /* Removed the feedback message */
+        }
+    </style>
+</head>
+<body>
+    <svg style="display: none;">
+        <symbol id="copy-icon" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M19 21H8V7h11m0-2H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2m-3-4H4a2 2 0 0 0-2 2v14h2V3h12V1z"/>
+        </symbol>
+        <symbol id="check-icon" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M21 7L9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7z"/>
+        </symbol>
+    </svg>
+
+    <h1>Greeting</h1>
+    <div class="snippet-group">
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Hello, ~! Thank you for contacting Yodel Live Chat Support. My name is Vicky. How can I assist you today?</p><span class="feedback">Copied!</span></div>
+    </div>
+
+    <h1>Hold Statements</h1>
+    <div class="snippet-group">
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Let me quickly check this for you. Please bear with me for a moment.</p><span class="feedback">Copied!</span></div>
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Thank you for explaining your issue. Please allow me a moment so that I can assist you.</p><span class="feedback">Copied!</span></div>
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Thank you for providing that information. It may take a few minutes for me to research it. Please allow me a moment so that I can assist you.</p><span class="feedback">Copied!</span></div>
+    </div>
+
+    <h1>Un-Hold Statements</h1>
+    <div class="snippet-group">
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Thank you for being connected with us.</p><span class="feedback">Copied!</span></div>
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Thank you for your patience.</p><span class="feedback">Copied!</span></div>
+    </div>
+
+    <h1>Assurance</h1>
+    <div class="snippet-group">
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Please rest assured, we are doing our utmost to ensure your parcel is delivered.</p><span class="feedback">Copied!</span></div>
+    </div>
+
+    <h1>Proof of Delivery</h1>
+    <div class="snippet-group">
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">I'm providing you with the Proof of Delivery. Kindly review it.</p><span class="feedback">Copied!</span></div>
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Could you please check with your family members and neighbours to see if they might have received it on your behalf, and confirm back with us?</p><span class="feedback">Copied!</span></div>
+    </div>
+
+    <h1>Still Connected</h1>
+    <div class="snippet-group">
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Are we still connected?</p><span class="feedback">Copied!</span></div>
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Since you are not responding, I will have to close the chat. Thank you for reaching out to Yodel Live Chat Support. Have a great day.</p><span class="feedback">Copied!</span></div>
+    </div>
+
+    <h1>Offering Additional Help</h1>
+    <div class="snippet-group">
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Thank you for giving us the opportunity to help you today. Please let me know if there is anything else I can assist you with?</p><span class="feedback">Copied!</span></div>
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">It was great chatting with you today. I appreciate your patience. Is there anything else I can assist you with?</p><span class="feedback">Copied!</span></div>
+    </div>
+
+    <h1>Closure</h1>
+    <div class="snippet-group">
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Thank you for contacting Yodel Live Chat Support! Have a great day!</p><span class="feedback">Copied!</span></div>
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Thank you for reaching out to Yodel Customer Services. It was a pleasure assisting you today. Have a great day!</p><span class="feedback">Copied!</span></div>
+    </div>
+
+    <h1>Ticket Raise Assurance</h1>
+    <div class="snippet-group">
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">I have escalated your issue to the relevant team. They will reach out to you via your registered email within 24 hours.</p><span class="feedback">Copied!</span></div>
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">I apologise for the inconvenience. Rest assured that our dedicated team is prioritising your issue and will be reaching out to you shortly.</p><span class="feedback">Copied!</span></div>
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">I sincerely apologise for the inconvenience you have faced. Rest assured, the relevant team will investigate this issue as a priority and will update you accordingly. Please do not worry, as we are committed to resolving this matter promptly.</p><span class="feedback">Copied!</span></div>
+    </div>
+
+    <h1>EDD End of Day</h1>
+    <div class="snippet-group">
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Your parcel is expected to be delivered today. Please wait until the end of the day for it to arrive.</p><span class="feedback">Copied!</span></div>
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">Thank you for your patience. Your parcel is expected to be delivered today. Please wait until the end of the day for it to arrive. If you have any further questions or concerns, feel free to let me know.</p><span class="feedback">Copied!</span></div>
+    </div>
+
+    <h1>Complaint</h1>
+    <div class="snippet-group">
+        <div class="copy-container"><button class="copy-btn"><svg class="copy-icon"><use xlink:href="#copy-icon"></use></svg></button><p class="snippet-text">executivecomplaints@yodel.co.uk</p><span class="feedback">Copied!</span></div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.copy-btn').forEach(button => {
+            button.addEventListener('click', (e) => {
+                const text = e.currentTarget.closest('.copy-container').querySelector('.snippet-text').textContent;
+                const feedback = e.currentTarget.closest('.copy-container').querySelector('.feedback');
+
+                navigator.clipboard.writeText(text).then(() => {
+                    // Feedback is hidden, so no need to manipulate it
+                    const icon = button.querySelector('use');
+                    const originalIcon = icon.getAttribute('xlink:href');
+                    icon.setAttribute('xlink:href', '#check-icon');
+
+                    setTimeout(() => {
+                        icon.setAttribute('xlink:href', originalIcon);
+                    }, 750);
+                }).catch(err => {
+                    console.error('Failed to copy text:', err);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
