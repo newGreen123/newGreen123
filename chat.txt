@@ -74,13 +74,15 @@ I sincerely apologise for the inconvenience you have faced. Rest assured, the re
 EDD END OF DAY :
 Your parcel is expected to be delivered today. Please wait until the end of the day for it to arrive.
 
-Thank you for your patience. Your parcel is expected to be delivered today. Please wait until the end of the day for it to arrive. If you have any further questions or concerns, feel free to let me know.
+Thank you for your patience. Upon review, I can confirm that your parcel is expected to be delivered today. Please wait until the end of the day for its arrival. If you have any further questions or concerns, please feel free to let me know.
 
 Disposition : 
 The customer inquired about the current status of their parcel. I updated them that their parcel is expected to be delivered by the end of the day.
 
 Regards,
 Vicky
+
+The customer has disputed the delivery of their parcel, stating that they have not received it. Upon reviewing the scans, I have noted that the geo-codes are also broken. I have raised a DI ticket to the SVC for this same.
 
 The customer needed to update their address since their parcel was on hold due to bad address. I informed them to update their address using the Yodel mobile application also suggested them to add what3words to their address using the app.
 
