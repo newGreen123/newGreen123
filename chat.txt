@@ -71,10 +71,14 @@ I apologise for the inconvenience. Rest assured that our dedicated team is prior
 
 I sincerely apologise for the inconvenience you have faced. Rest assured, the relevant team will investigate this issue as a priority and will update you accordingly. Please do not worry, as we are committed to resolving this matter promptly.
 
+Thank you for your patience. Upon checking, I can see that your parcel is delayed. I apologise for the inconvenience. I am raising your concern with the relevant team. They will investigate this issue and get back to you via your registered email. 
+
 EDD END OF DAY :
 Your parcel is expected to be delivered today. Please wait until the end of the day for it to arrive.
 
 Thank you for your patience. Upon review, I can confirm that your parcel is expected to be delivered today. Please wait until the end of the day for its arrival. If you have any further questions or concerns, please feel free to let me know.
+
+Thank you for your patience. Upon checking, I can see that your parcel is on its way to Yodel and has not yet arrived in the Yodel network. Since your parcel is an international one, I would like to inform you that there are additional procedures we must follow for international parcels, which sometimes results in extra time being needed.
 
 Disposition : 
 The customer inquired about the current status of their parcel. I updated them that their parcel is expected to be delivered by the end of the day.
